@@ -24,5 +24,4 @@ public class Application extends Controller {
     	result.put("data", Json.toJson(Mapping.find.all()));
     	return ok(result);
     }
-  
 }
