@@ -1,4 +1,4 @@
-EDI Editor (v0.1)
-=====================================
+play-starter
+============
 
-Browser-based graphical editor for EDI Mappings.
+Starter templates for Play Framework apps
