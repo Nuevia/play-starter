@@ -5,7 +5,7 @@ sample_mappings:
 
     - !!models.Mapping
         id:         1
-        name:       Van - test mapping
+        name:       Dummy mapping 1
     - !!models.Mapping
         id:         2
         name:       Best Buy - Warehouse A
