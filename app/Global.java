@@ -18,7 +18,9 @@ public class Global extends GlobalSettings {
         public static void insert(Application app) {
             if(Mapping.find.findRowCount() == 0) {
                 
-            	Ebean.save((List) Yaml.load("initial-data.yml"));
+            	//Ebean.save((List) Yaml.load("initial-data.yml"));
+            	Map<String,List<Object>> all = (Map<String,List<Object>>)Yaml.load("initial-data.yml");
+            	Ebean.save(all.get("sample_mappings"));
 
             }
         }
